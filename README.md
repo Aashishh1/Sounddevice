@@ -1,15 +1,20 @@
-# Audio Recorder
+<div align='center'><img style="width:30%" src='https://github.com/user-attachments/assets/c6642fbe-b362-46f1-8704-08d2b703f6c7'/></div>
 
-This repository contains a simple script for recording audio using Python libraries `sounddevice` and `scipy.io.wavfile`. The script records audio for a specified duration and saves it as a WAV file.
+<div align='center'> <h1> Python Audio Recording🎙️ </h1> </div>
 
-## Requirements
+Welcome to the **Python Audio Recording**. This guide will help you understand how to record audio and save it as a WAV file using the `sounddevice` and `scipy` libraries.
 
-Before you can run the script, ensure you have the following libraries installed:
+## 📦 Prerequisites
+
+Before running the code, ensure you have the following Python libraries installed:
 
 - `sounddevice`
 - `scipy`
 
-You can install these libraries using pip:
+## 🎯 Features
+- **Customizable Duration**: Change the `duration` variable to record for a different length of time.
+- **High-Quality Audio**: Records at a sample rate of 44.1 kHz (CD quality).
 
-```bash
-pip install sounddevice scipy
+## 💡 Tips
+- Ensure your microphone is set as the default recording device on your system.
+- Adjust the `channels` parameter if you need mono (1) or stereo (2) recording.
